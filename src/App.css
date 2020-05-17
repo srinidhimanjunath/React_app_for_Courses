@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#courses {
+  list-style: none;
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+}
+
+#courses p {
+  display: block;
+  padding: 20px 20px;
+  background-color: #c5eff7;
+  color: #000;
+  position: relative;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+#courses p.active b {
+  color: red;
+}
+#courses p b {
+  position: absolute;
+  right: 30px;
+  width: 100px;
+  color: #fff;
+  text-align: right;
+}
+
+#courses p:hover {
+  background-color: #52b3d9;
+  color: #fff;
+}
+
+#total {
+  background: #3fc380 !important;
+  cursor: default !important;
+  padding-top: 10px !important;
+}
